@@ -1,0 +1,16 @@
+{
+  "name": "jake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tailwindcss -i ./src/input.css -o ./assets/css/main.css",
+    "watch": "npm run compile -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

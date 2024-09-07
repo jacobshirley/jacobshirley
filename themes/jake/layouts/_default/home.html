@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div me class="py-20 bg-zinc-200 pl-20 pr-20 shadow-md" >
+    <h1 class="font-sans font-bold text-7xl uppercase">{{- site.Title }}</h1>
+    <h2 class="py-2">Computer Science student at the University of Brighton</h2>
+    <h2 class="py-2">Interested in just about everything computer-related, I specialise in the Java and JavaScript programming languages.</h2>
+  </div>
+  {{ .Content }}
+  {{ range site.RegularPages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,19 @@
+name = 'jake'
+license = 'MIT'
+licenselink = 'https://github.com/jacobshirley/portfolio/themes/jake/LICENSE'
+description = 'A theme for my personal website'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/jacobshirley/portfolio'
+
+# If you have a running demo of the theme
+demosite = 'https://jacobshirley.tech'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+# If the theme has a single author
+[author]
+  name = 'Jacob Shirley'
+  homepage = 'jacobshirley.tech'

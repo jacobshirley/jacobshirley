@@ -1,0 +1,20 @@
+baseURL = 'https://jacobshirley.tech/'
+languageCode = 'en-us'
+title = 'Jacob Shirley'
+theme = 'jake'
+text = 'something something'
+
+[[menus.links]]
+name = 'Github2'
+pageRef = '/github'
+weight = 10
+
+[[menus.links]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 10
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
