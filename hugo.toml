@@ -2,17 +2,17 @@ baseURL = 'https://jacobshirley.tech/'
 languageCode = 'en-us'
 title = 'Jacob Shirley'
 theme = 'jake'
-text = 'something something'
 
-[[menus.links]]
-name = 'Github2'
-pageRef = '/github'
+[[menus.main]]
+name = 'Github'
+url = 'https://github.com/jacobshirley'
 weight = 10
+target = "_blank"
 
-[[menus.links]]
+[[menus.main]]
 name = 'Contact'
-pageRef = '/contact'
-weight = 10
+url = 'mailto:jakeshirley2@gmail.com'
+weight = 20
 
 [module]
   [module.hugoVersion]
