@@ -2,12 +2,16 @@
 module.exports = {
   content: ["./layouts/**/*.{html,js}"],
   theme: {
+    screens: {
+      mobile: "300px",
+      // => @media (min-width: 300px) { ... }
+
+      desktop: "900px",
+      // => @media (min-width: 768px) { ... }
+    },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
       serif: ["Open Sans", "serif"],
-    },
-    screens: {
-      xl: "1440px",
     },
     colors: {
       white: "#FFFFFF",
