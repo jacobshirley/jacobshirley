@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
-      serif: ["Outfit", "sans-serif"],
+      serif: ["Open Sans", "serif"],
     },
     screens: {
       xl: "1440px",
     },
     colors: {
       white: "#FFFFFF",
-      blue: "#7691FF",
+      main: "#7691FF",
       black: "#000000",
-      lightgrey: "#F1F1F1",
+      lightgrey: "#F7F7F7",
     },
   },
 };

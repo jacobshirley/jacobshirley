@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="scroll-smooth">
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="scroll-smooth overflow-x-hidden">
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -8,8 +8,6 @@
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+  {{ partial "footer.html" . }}
 </body>
 </html>

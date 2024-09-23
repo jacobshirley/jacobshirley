@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div>
+<div class="relative overflow-x-hidden pt-20 border-b">
   <div
     class="absolute left-[700px] top-[-363px] w-[1000px] h-[1000px] bg-[#EBEFFF] blur-[200px] z-[-1] rounded-[50%]"
   ></div>
@@ -7,14 +7,14 @@
     <div class="col-span-8">
       <h1 class="font-sans font-bold text-7xl uppercase">{{- site.Title }}</h1>
       <h2 class="font-serif font-semibold text-4xl py-6">Software Engineer</h2>
-      <h3 class="font-serif font-semibold text-3xl text-blue py-4">
+      <h3 class="font-serif font-semibold text-3xl text-main py-4">
         6 years industry experience, full-stack.
       </h3>
     </div>
     <div class="col-span-1"></div>
     <div class="col-span-3">
       <img
-        class="border-solid border-8 border-blue rounded-3xl w-full h-auto"
+        class="border-solid border-8 border-main rounded-3xl w-full h-auto"
         src="/person.jpg"
       />
 
@@ -55,10 +55,10 @@
 
   <div class="py-10 px-60">
     <div
-      class="relative my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-blue before:gb"
+      class="relative my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-main before:gb"
     >
       <div class="relative px-[50px] top-[-15px]">
-        <p class="text-3xl font-serif font-bold text-blue">
+        <p class="text-3xl font-serif font-bold text-main">
           Modern Development
         </p>
         <p class="text-2xl font-serif py-5">
@@ -70,10 +70,10 @@
     </div>
 
     <div
-      class="relative left-1/4 my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[calc(100%-22px)] before:top-[22px] before:rounded-[50%] before:bg-blue before:gb"
+      class="relative left-1/4 my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[calc(100%-22px)] before:top-[22px] before:rounded-[50%] before:bg-main before:gb"
     >
       <div class="relative px-[50px] top-[-15px]">
-        <p class="text-3xl font-serif font-bold text-blue">
+        <p class="text-3xl font-serif font-bold text-main">
           Full-Stack Development
         </p>
         <p class="text-2xl font-serif py-5">
@@ -84,10 +84,10 @@
     </div>
 
     <div
-      class="relative my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-blue before:gb"
+      class="relative my-10 w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-main before:gb"
     >
       <div class="relative px-[50px] top-[-15px]">
-        <p class="text-3xl font-serif font-bold text-blue">Cloud Computing</p>
+        <p class="text-3xl font-serif font-bold text-main">Cloud Computing</p>
         <p class="text-2xl font-serif py-5">
           Extensive experience in cloud architecture, capable of deploying and
           managing scalable, secure cloud solutions tailored to modern business
@@ -101,7 +101,7 @@
     <div class="col-span-8">
       <a
         href="#get-in-touch"
-        class="shadow-lg inline-block rounded-3xl bg-blue uppercase text-2xl text-white px-20 mt-5 py-2 hover:outline hover:outline-black hover:outline-8"
+        class="shadow-lg inline-block rounded-3xl bg-main uppercase text-2xl text-white px-20 mt-5 py-2 hover:outline hover:outline-black hover:outline-8"
         >Get in touch</a
       >
     </div>
@@ -110,7 +110,8 @@
       <div class="float-right">
         <a
           href="https://github.com/jacobshirley"
-          class="inline-block shadow-lg border-solid border-8 border-black rounded-3xl w-20 h-20 bg-white hover:border-blue hover:fill-blue"
+          target="_blank"
+          class="inline-block shadow-lg border-solid border-8 border-black rounded-3xl w-20 h-20 bg-white hover:border-main hover:fill-main"
         >
           <svg
             viewBox="0 0 98 96"
@@ -128,7 +129,8 @@
         </a>
         <a
           href="https://www.linkedin.com/in/jacob-shirley-4532b7159/"
-          class="inline-block shadow-lg border-solid border-8 border-black rounded-3xl w-20 h-20 bg-white hover:border-blue hover:fill-blue"
+          target="_blank"
+          class="inline-block shadow-lg border-solid border-8 border-black rounded-3xl w-20 h-20 bg-white hover:border-main hover:fill-main"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

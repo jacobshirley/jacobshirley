@@ -43,22 +43,22 @@
   </main>
   <footer>
     <footer>
-    <div id="get-in-touch" class="py-20 bg-lightgrey px-60">
-        <h2 class="font-serif font-semibold text-4xl text-center">Get in touch</h2>
+    <form id="get-in-touch" class="py-20 bg-lightgrey px-60">
+        <h2 class="font-serif font-semibold text-5xl text-center">Get in touch</h2>
         <div class="mx-52">
-            <input placeholder="Name" class="p-2 w-full border-solid border-8 border-blue rounded-2xl h-12 my-10 bg-white block focus:border-black" type="text" />
+            <input name="name" placeholder="Name" class="p-2 w-full text-xl border-solid border-8 border-blue rounded-2xl h-12 my-10 bg-white block hover:border-black focus:outline-none focus:border-black" type="text" />
         </div>
         <div class="mx-52">
-            <input placeholder="Email" class="p-2 w-full border-solid border-8 border-blue rounded-2xl h-12 my-10 bg-white block focus:border-black" type="text" />
+            <input name="email" placeholder="Email" class="p-2 w-full text-xl border-solid border-8 border-blue rounded-2xl h-12 my-10 bg-white block hover:border-black focus:outline-none focus:border-black" type="email" />
         </div>
         <div class="mx-52 h-52">
-            <textarea placeholder="Message" rows="5" class="p-2 w-full border-solid border-8 border-blue rounded-2xl h-full my-10 bg-white block focus:border-black" type="text"></textarea>
+            <textarea name="message" placeholder="Message" rows="5" class="p-2 w-full text-xl border-solid border-8 border-blue rounded-2xl h-full my-10 bg-white block hover:border-black focus:outline-none focus:border-black" type="text"></textarea>
         </div>
         <div class="text-center w-full">
-            <a class="inline-block rounded-3xl bg-blue uppercase text-white px-10 py-2 mt-10 border-solid border-lightgrey border-8 border-transparent hover:border-black">Send</a>
+            <button type="submit" class="shadow-lg inline-block rounded-3xl bg-blue uppercase text-2xl text-white px-10 py-2 mt-10 hover:outline hover:outline-black hover:outline-8">Send</button>
         </div>
-    </div>
-    <p class="px-60 dark light-text bg-blue text-white text-sm text-center">© 2024 Jacob Shirley</p>
+    </form>
+    <p class="dark light-text bg-blue text-white text-sm">© 2024 Jacob Shirley</p>
 </footer>
 
   </footer>
