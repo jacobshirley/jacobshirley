@@ -3,16 +3,22 @@
   <div
     class="absolute left-[50%] top-[-363px] w-[1000px] h-[1000px] bg-[#EBEFFF] blur-[200px] z-[-1] rounded-[50%]"
   ></div>
-  <div class="grid grid-cols-12 gap-2 pt-20 mobile:px-20 desktop:px-60">
-    <div class="desktop:col-span-8 mobile:col-span-12">
-      <h1 class="font-sans font-bold text-7xl uppercase">{{- site.Title }}</h1>
-      <h2 class="font-serif font-semibold text-4xl py-6">Software Engineer</h2>
-      <h3 class="font-serif font-semibold text-3xl text-main py-4">
-        6 years industry experience, full-stack.
-      </h3>
+  <div
+    class="grid grid-cols-12 gap-2 desktop:pt-20 mobile:pt-2 mobile:px-6 desktop:px-60"
+  >
+    <div class="desktop:col-span-8 mobile:col-span-8">
+      <h1 class="font-sans font-bold text-7xl uppercase mobile:text-6xl">{{- site.Title }}</h1>
+      <div class="mobile:hidden desktop:block">
+        <h2 class="font-serif font-semibold text-4xl py-6">
+          Software Engineer
+        </h2>
+        <h3 class="font-serif font-semibold text-3xl text-main py-4">
+          6 years industry experience, full-stack.
+        </h3>
+      </div>
     </div>
-    <div class="col-span-1"></div>
-    <div class="desktop:col-span-3 mobile:hidden desktop:block">
+    <div class="col-span-1 mobile:hidden"></div>
+    <div class="desktop:col-span-3 mobile:col-span-4 desktop:block">
       <img
         class="border-solid border-8 border-main rounded-3xl w-full h-auto"
         src="/person.jpeg"
@@ -51,10 +57,20 @@
         <h3 class="inline font-serif text-[1em]">Brighton, UK</h3>
       </div>
     </div>
+    <div class="col-span-12 desktop:hidden">
+      <h2 class="font-serif font-semibold text-4xl py-2 mobile:text-3xl">
+        Software Engineer
+      </h2>
+      <h3
+        class="font-serif font-semibold text-3xl text-main py-2 mobile:text-2xl"
+      >
+        6 years industry experience, full-stack.
+      </h3>
+    </div>
   </div>
-  <div class="py-10 mobile:px-20 desktop:px-60">
+  <div class="pt-10 mobile:px-8 desktop:px-60">
     <div
-      class="relative my-10 even:left-1/4 mobile:w-full desktop:w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-main before:gb"
+      class="relative even:left-1/4 mobile:w-full desktop:w-3/4 bg-white rounded-lg shadow-md before:w-[44px] before:h-[44px] before:block before:relative before:left-[-22px] before:top-[22px] before:rounded-[50%] before:bg-main before:gb"
     >
       <div class="relative px-[50px] top-[-15px]">
         <p class="text-3xl font-serif font-bold text-main">
@@ -96,7 +112,7 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-2 pb-10 mobile:px-20 desktop:px-60">
+  <div class="grid grid-cols-12 gap-2 pb-10 mobile:px-6 desktop:px-60">
     <div class="desktop:col-span-8 mobile:col-span-12">
       <a
         href="#get-in-touch"
