@@ -1,4 +1,4 @@
-# Jacob Shirley
+# About me
 
 Software engineer building lightweight, type-safe open-source libraries focused on developer tools, streaming data, and low-level systems programming.
 
