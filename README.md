@@ -1,1 +1,15 @@
-TODO
+# Jacob Shirley
+
+Software engineer building lightweight, type-safe open-source libraries focused on developer tools, streaming data, and low-level systems programming.
+
+## Projects
+
+- **[pdf-lite](https://github.com/jacobshirley/pdf-lite)** - Low-level PDF library with encryption support for browser and Node.js
+- **[json-stream-lite](https://github.com/jacobshirley/json-stream-lite)** - Zero-dependency streaming JSON parser and stringifier
+- **[pki-lite](https://github.com/jacobshirley/pki-lite)** - Lightweight PKI library for X.509 certificates and digital signatures
+- **[soql-parser-lite](https://github.com/jacobshirley/soql-parser-lite)** - TypeScript parser for Salesforce SOQL queries
+- **[rules_docgen](https://github.com/jacobshirley/rules_docgen)** - Bazel rules for documentation and MkDocs site generation
+- **[rules_postgresql](https://github.com/jacobshirley/rules_postgresql)** - Hermetic Bazel toolchain for PostgreSQL testing
+- **[blob.io](https://github.com/jacobshirley/blob.io)** - Multiplayer web game
+
+[@jacobshirley](https://github.com/jacobshirley)
