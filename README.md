@@ -5,7 +5,8 @@ Software engineer building lightweight, type-safe open-source libraries focused 
 ## Projects
 
 - **[pdf-lite](https://github.com/jacobshirley/pdf-lite)** - Low-level PDF library with encryption support for browser and Node.js
-- **[json-stream-lite](https://github.com/jacobshirley/json-stream-lite)** - Zero-dependency streaming JSON parser and stringifier
+- **[json-stream-lite](https://github.com/jacobshirley/json-stream-lite)** - Zero-dependency JSON streaming and stringifier library
+- **[csv-stream-lite](https://github.com/jacobshirley/csv-stream-lite)** - Zero-dependency CSV streaming and stringifier library
 - **[pki-lite](https://github.com/jacobshirley/pki-lite)** - Lightweight PKI library for X.509 certificates and digital signatures
 - **[soql-parser-lite](https://github.com/jacobshirley/soql-parser-lite)** - TypeScript parser for Salesforce SOQL queries
 - **[rules_docgen](https://github.com/jacobshirley/rules_docgen)** - Bazel rules for documentation and MkDocs site generation
