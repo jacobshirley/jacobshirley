@@ -40,15 +40,15 @@
             <!-- Left: text -->
             <div>
               <p class="text-xs font-semibold tracking-[0.2em] text-sky-400 uppercase mb-4">
-                Software Engineer · Developer Tools
+                Software Engineer · Open Source
               </p>
               <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-                I build reliable developer tooling and high-integrity systems.
+                Building lightweight, type-safe open-source libraries.
               </h1>
               <p class="text-base md:text-lg text-slate-300 max-w-xl mb-8">
-                Full-stack engineer focused on TypeScript, cloud infrastructure, and
-                PDF/cryptography pipelines. I like turning messy specs into clean,
-                testable systems that other engineers enjoy using.
+                Software engineer focused on developer tools, streaming data, and
+                low-level systems programming. I create zero-dependency libraries
+                that prioritize simplicity and type safety.
               </p>
               <div class="flex flex-wrap items-center gap-3">
                 <a
@@ -75,27 +75,27 @@
                 <li class="flex items-start gap-3">
                   <span class="mt-1 h-2 w-2 rounded-full bg-emerald-400"></span>
                   <div>
-                    <p class="font-medium">Developer productivity tooling</p>
+                    <p class="font-medium">Zero-dependency streaming libraries</p>
                     <p class="text-xs text-slate-400">
-                      Test explorers, artifact pipelines, and CI integrations.
+                      JSON, CSV, and data streaming for Node.js and browsers.
                     </p>
                   </div>
                 </li>
                 <li class="flex items-start gap-3">
                   <span class="mt-1 h-2 w-2 rounded-full bg-sky-400"></span>
                   <div>
-                    <p class="font-medium">PDF & cryptography</p>
+                    <p class="font-medium">Low-level PDF & PKI</p>
                     <p class="text-xs text-slate-400">
-                      PKCS#7/CAdES signatures, TSA integration, incremental PDF updates.
+                      PDF encryption, X.509 certificates, and digital signatures.
                     </p>
                   </div>
                 </li>
                 <li class="flex items-start gap-3">
                   <span class="mt-1 h-2 w-2 rounded-full bg-violet-400"></span>
                   <div>
-                    <p class="font-medium">Cloud & infra automation</p>
+                    <p class="font-medium">Developer tooling</p>
                     <p class="text-xs text-slate-400">
-                      Terraform, containerized workloads, and reliable CI pipelines.
+                      Bazel rules, parsers, and testing infrastructure.
                     </p>
                   </div>
                 </li>
@@ -111,16 +111,16 @@
                     Node.js
                   </span>
                   <span class="rounded-full border border-slate-700 px-3 py-1">
-                    React
+                    Streams
                   </span>
                   <span class="rounded-full border border-slate-700 px-3 py-1">
-                    Terraform
+                    Bazel
                   </span>
                   <span class="rounded-full border border-slate-700 px-3 py-1">
                     WebCrypto
                   </span>
                   <span class="rounded-full border border-slate-700 px-3 py-1">
-                    PDF internals
+                    PDF
                   </span>
                 </div>
               </div>
@@ -198,34 +198,18 @@
               <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
                 <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
                   <h3 class="text-sm font-semibold text-white">
-                    CAdES PDF Signing Engine
+                    pdf-lite
                   </h3>
                   <span class="text-[11px] rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1 text-emerald-300">
-                    2025 · TypeScript · WebCrypto
+                    Open Source · TypeScript
                   </span>
                 </div>
                 <p class="text-sm text-slate-300 mb-3">
-                  Browser-compatible engine for generating detached PKCS#7 and CAdES-T signatures
-                  for PDFs, including TSA integration and incremental PDF updates.
+                  Low-level PDF library with encryption support for browser and Node.js.
+                  Type-safe API for working with PDF structure, encryption, and modifications.
                 </p>
-                <dl class="grid gap-3 text-xs text-slate-400 md:grid-cols-3 mb-4">
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Role</dt>
-                    <dd>Architecture, crypto pipeline, PDF writer</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Outcome</dt>
-                    <dd>Reduced signing time and allowed pure TS browser signing flows.</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Tech</dt>
-                    <dd>TypeScript, Node.js, WebCrypto, asn1js, PDF</dd>
-                  </div>
-                </dl>
-                <div class="flex flex-wrap gap-2 text-[11px]">
-                  <span class="rounded-full border border-slate-700 px-3 py-1">Case study</span>
-                  <span class="rounded-full border border-slate-700 px-3 py-1">Architecture diagram</span>
-                  <span class="rounded-full border border-slate-700 px-3 py-1">Code samples</span>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/pdf-lite" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
                 </div>
               </article>
 
@@ -233,33 +217,18 @@
               <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
                 <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
                   <h3 class="text-sm font-semibold text-white">
-                    Web UI Test Explorer
+                    json-stream-lite
                   </h3>
                   <span class="text-[11px] rounded-full border border-sky-500/40 bg-sky-500/10 px-3 py-1 text-sky-300">
-                    2024 · React · DX Tooling
+                    Open Source · Zero Dependencies
                   </span>
                 </div>
                 <p class="text-sm text-slate-300 mb-3">
-                  A test explorer UI for browsing and debugging test artifacts with per-test coverage,
-                  custom tabs, and fast filtering across large suites.
+                  Zero-dependency JSON streaming and stringifier library for efficient processing
+                  of large JSON data in Node.js streams and browsers.
                 </p>
-                <dl class="grid gap-3 text-xs text-slate-400 md:grid-cols-3 mb-4">
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Role</dt>
-                    <dd>Product design, frontend, artifact format</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Outcome</dt>
-                    <dd>Improved failure triage and test discoverability for teams.</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Tech</dt>
-                    <dd>React, TypeScript, Vitest, Node.js</dd>
-                  </div>
-                </dl>
-                <div class="flex flex-wrap gap-2 text-[11px]">
-                  <span class="rounded-full border border-slate-700 px-3 py-1">Live demo</span>
-                  <span class="rounded-full border border-slate-700 px-3 py-1">GitHub</span>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/json-stream-lite" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
                 </div>
               </article>
 
@@ -267,30 +236,114 @@
               <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
                 <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
                   <h3 class="text-sm font-semibold text-white">
-                    Automated VAT Rule Engine
+                    csv-stream-lite
                   </h3>
                   <span class="text-[11px] rounded-full border border-violet-500/40 bg-violet-500/10 px-3 py-1 text-violet-300">
-                    2023 · Backend · Rules
+                    Open Source · Zero Dependencies
                   </span>
                 </div>
                 <p class="text-sm text-slate-300 mb-3">
-                  Real-time VAT rules engine in TypeScript with strong typing over domain rules,
-                  built for transparency, auditability, and change safety.
+                  Zero-dependency CSV streaming and stringifier library with support for
+                  RFC 4180 compliant parsing and generation.
                 </p>
-                <dl class="grid gap-3 text-xs text-slate-400 md:grid-cols-3 mb-4">
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Role</dt>
-                    <dd>Core engine, rule DSL, CI strategy</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Outcome</dt>
-                    <dd>Safer rule changes and automated regression checks.</dd>
-                  </div>
-                  <div>
-                    <dt class="font-semibold text-slate-300 mb-1">Tech</dt>
-                    <dd>TypeScript, Node.js, PostgreSQL, CI</dd>
-                  </div>
-                </dl>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/csv-stream-lite" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Project 4 -->
+              <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <h3 class="text-sm font-semibold text-white">
+                    pki-lite
+                  </h3>
+                  <span class="text-[11px] rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1 text-emerald-300">
+                    Open Source · Cryptography
+                  </span>
+                </div>
+                <p class="text-sm text-slate-300 mb-3">
+                  Lightweight PKI library for X.509 certificates and digital signatures.
+                  Browser and Node.js compatible with WebCrypto API support.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/pki-lite" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Project 5 -->
+              <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <h3 class="text-sm font-semibold text-white">
+                    soql-parser-lite
+                  </h3>
+                  <span class="text-[11px] rounded-full border border-sky-500/40 bg-sky-500/10 px-3 py-1 text-sky-300">
+                    Open Source · Parser
+                  </span>
+                </div>
+                <p class="text-sm text-slate-300 mb-3">
+                  TypeScript parser for Salesforce SOQL queries with full AST support
+                  and type-safe query building utilities.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/soql-parser-lite" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Project 6 -->
+              <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <h3 class="text-sm font-semibold text-white">
+                    rules_docgen
+                  </h3>
+                  <span class="text-[11px] rounded-full border border-violet-500/40 bg-violet-500/10 px-3 py-1 text-violet-300">
+                    Open Source · Bazel
+                  </span>
+                </div>
+                <p class="text-sm text-slate-300 mb-3">
+                  Bazel rules for documentation and MkDocs site generation with automatic
+                  API documentation extraction from TypeScript and other languages.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/rules_docgen" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Project 7 -->
+              <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <h3 class="text-sm font-semibold text-white">
+                    rules_postgresql
+                  </h3>
+                  <span class="text-[11px] rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1 text-emerald-300">
+                    Open Source · Bazel
+                  </span>
+                </div>
+                <p class="text-sm text-slate-300 mb-3">
+                  Hermetic Bazel toolchain for PostgreSQL testing with isolated database
+                  instances and automatic cleanup for integration tests.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/rules_postgresql" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Project 8 -->
+              <article class="rounded-2xl border border-slate-800 bg-slate-900/70 p-5 md:p-6">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <h3 class="text-sm font-semibold text-white">
+                    blob.io
+                  </h3>
+                  <span class="text-[11px] rounded-full border border-sky-500/40 bg-sky-500/10 px-3 py-1 text-sky-300">
+                    University Project · Game
+                  </span>
+                </div>
+                <p class="text-sm text-slate-300 mb-3">
+                  Multiplayer web game built as part of university coursework. Real-time
+                  gameplay with WebSocket communication and canvas rendering.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] mb-4">
+                  <a href="https://github.com/jacobshirley/blob.io" class="rounded-full border border-sky-600 bg-sky-500/10 px-3 py-1 text-sky-300 hover:bg-sky-500/20">GitHub</a>
+                </div>
               </article>
             </div>
           </div>
@@ -352,20 +405,21 @@
             <!-- Short bio block -->
             <div>
               <h2 class="text-xl font-semibold text-white mb-4">
-                About
+                About me
               </h2>
               <p class="text-sm text-slate-300 mb-4">
-                I’m a software engineer who enjoys working on problems where specs are complex,
-                requirements are strict, and correctness matters as much as speed.
+                Software engineer building lightweight, type-safe open-source libraries focused on
+                developer tools, streaming data, and low-level systems programming.
               </p>
               <p class="text-sm text-slate-300 mb-4">
-                My work tends to live at the intersection of developer experience, infrastructure,
-                and cryptography—from building test explorers and artifact formats to crafting
-                standards-compliant PDF signing pipelines.
+                I specialize in creating zero-dependency libraries that prioritize simplicity,
+                performance, and type safety. My projects range from PDF manipulation and PKI
+                to data streaming and Bazel build tooling.
               </p>
               <p class="text-sm text-slate-300">
-                Outside of work, I like deep dives into standards docs, reverse-engineering legacy
-                formats, and helping other engineers make architectural decisions with confidence.
+                I believe in building tools that solve real problems with minimal dependencies
+                and maximum clarity. When I'm not coding, I enjoy exploring low-level system
+                internals and contributing to the open-source community.
               </p>
             </div>
 
@@ -379,10 +433,10 @@
                   <span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-400"></span>
                   <div>
                     <p class="font-medium text-slate-100">
-                      Built a TypeScript-first CAdES signing engine.
+                      Created pdf-lite for low-level PDF manipulation.
                     </p>
                     <p class="text-slate-400">
-                      Implemented PKCS#7/CAdES, RFC 3161 TSA, and PDF incremental updates without relying on OpenSSL.
+                      Type-safe PDF library with encryption support for browser and Node.js environments.
                     </p>
                   </div>
                 </li>
@@ -390,10 +444,10 @@
                   <span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-400"></span>
                   <div>
                     <p class="font-medium text-slate-100">
-                      Designed a test explorer for large JS test suites.
+                      Built zero-dependency streaming libraries.
                     </p>
                     <p class="text-slate-400">
-                      Unified code, coverage, and per-test artifacts into a single navigable UI.
+                      json-stream-lite and csv-stream-lite for efficient data processing without external dependencies.
                     </p>
                   </div>
                 </li>
@@ -401,10 +455,10 @@
                   <span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-400"></span>
                   <div>
                     <p class="font-medium text-slate-100">
-                      Built an automated VAT rule engine.
+                      Developed Bazel build tooling.
                     </p>
                     <p class="text-slate-400">
-                      Strongly typed rule definitions and CI workflows for safe changes in production.
+                      rules_docgen and rules_postgresql for documentation generation and hermetic database testing.
                     </p>
                   </div>
                 </li>
@@ -419,25 +473,20 @@
             <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div>
                 <h2 class="text-xl font-semibold text-white mb-2">
-                  Let’s work together
+                  Get in touch
                 </h2>
                 <p class="text-sm text-slate-300 max-w-md">
-                  I’m interested in roles and collaborations around developer tooling,
-                  infra/platform teams, and systems where correctness really matters.
+                  Interested in collaborating on open-source projects or discussing
+                  developer tools and systems programming.
                 </p>
               </div>
               <div class="space-y-2 text-sm text-slate-200">
-                <a href="mailto:jakeshirley2@gmail.com" class="block hover:text-sky-300">
-                  jakeshirley2@gmail.com
-                </a>
                 <a href="https://github.com/jacobshirley" class="block hover:text-sky-300">
-                  GitHub
+                  @jacobshirley
                 </a>
                 <a href="https://www.linkedin.com/in/jacob-shirley-4532b7159/" class="block hover:text-sky-300">
                   LinkedIn
                 </a>
-                <!-- Optional: Calendly -->
-                <!-- <a href="https://calendly.com/your-handle" class="block hover:text-sky-300">Book a 20-min intro call</a> -->
               </div>
             </div>
           </div>
@@ -447,8 +496,8 @@
       <!-- Footer -->
       <footer class="border-t border-slate-900 bg-slate-950">
         <div class="mx-auto max-w-5xl px-4 py-5 flex items-center justify-between text-[11px] text-slate-500">
-          <span>© <span id="year"></span> Your Name</span>
-          <span>Engineering clarity into complex systems.</span>
+          <span>© <span id="year"></span> Jake Shirley</span>
+          <span>Building lightweight, type-safe tools.</span>
         </div>
       </footer>
     </div>
