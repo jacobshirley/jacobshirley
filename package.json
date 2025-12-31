@@ -1,0 +1,27 @@
+{
+    "name": "jacobshirley",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "scripts": {
+        "prepare": "husky || true",
+        "lint:staged": "lint-staged --allow-empty",
+        "lint:commit": "commitlint --edit $1",
+        "format": "prettier --write '**/*.{js,ts,json,md,yaml,yml}'"
+    },
+    "lint-staged": {
+        "*.{js,ts,json,md}": "pnpm format"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "packageManager": "pnpm@10.26.2",
+    "devDependencies": {
+        "@commitlint/cli": "^20.2.0",
+        "@commitlint/config-conventional": "^20.2.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.2.7",
+        "prettier": "^3.7.4"
+    }
+}
