@@ -8,7 +8,7 @@
         "prepare": "husky || true",
         "lint:staged": "lint-staged --allow-empty",
         "lint:commit": "commitlint --edit $1",
-        "format": "prettier --write '**/*.{js,ts,json,md,yaml,yml}'"
+        "format": "prettier --write '**/*.{js,ts,json,md,yaml,yml,html,css,scss}'"
     },
     "lint-staged": {
         "*.{js,ts,json,md}": "pnpm format"
