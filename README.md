@@ -14,4 +14,4 @@ Software engineer building lightweight, type-safe open-source libraries focused 
 - **[truck-physics-game](https://github.com/jacobshirley/truck-physics-game)** - Single player web game made with Phaser.js. The aim is to keep the crates balanced on the truck while driving through bumpy terrain.
 - **[blob.io](https://github.com/jacobshirley/blob.io)** - Multiplayer web game I made as part of my university course
 
-[@jacobshirley](https://github.com/jacobshirley) | [LinkedIn](https://www.linkedin.com/in/jacob-shirley-4532b7159/)
+[jacobshirley.dev](https://jacobshirley.dev) | [LinkedIn](https://www.linkedin.com/in/jacob-shirley-4532b7159/)
